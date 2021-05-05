@@ -7,3 +7,7 @@ all: 01
 
 01: src/problem_01.cc
 	$(CXX) $(CXXFLAGS) $^ -o $@
+
+
+02: src/problem_02.cc
+	$(CXX) $(CXXFLAGS) $^ -o $@
